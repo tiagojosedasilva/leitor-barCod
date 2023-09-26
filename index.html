@@ -1,4 +1,3 @@
-</html>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +9,6 @@
 </head>
 
 <body>
-    s
 
     <div id="resultado"></div>
     <div id="camera"></div>
@@ -18,12 +16,6 @@
     <script src="quagga.min.js"></script>
 
     <script>
-        const canvas = document.querySelector("#camera");
-        if (canvas instanceof HTMLCanvasElement) {
-            const ctx = canvas.getContext("2d");
-            ctx.willReadFrequently = true;
-        }
-
 
         Quagga.init({
             inputStream: {
